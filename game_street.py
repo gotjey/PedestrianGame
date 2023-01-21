@@ -3,6 +3,7 @@ from playsound import playsound #pip install playsound==1.2.2
 
 
 class Game:
+    """Main class of game"""
     def __init__(self, name: str):
         self.name = name
         self.window = Window()
